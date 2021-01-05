@@ -1,6 +1,8 @@
 # BetterGradients
 A PlaceholderAPI expansion that creates placeholders for gradient text. Unlike other similar plugins, BetterGradients supports chat modifiers like &amp;l and &amp;n.
 
+Works everywhere RGB color works! Converts a hex code like #FF0000 to &x&f&f&0&0&0&0. Note: RGB color does not work in scoreboards, but it does work on things like the server MOTD. 
+
 # Placeholders
 - `%BetterGradients_<hex1>_<hex2>_<message>%`
   - Example: `%BetterGradients_#FF6600_#FF00FF_This is a test message%`
