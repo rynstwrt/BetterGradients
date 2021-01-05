@@ -1,5 +1,5 @@
 # BetterGradients
-PlaceholderAPI extension that creates placeholders for gradient text. Unlike other similar plugins, BetterGradients supports chat modifiers like &amp;l and &amp;n.
+A PlaceholderAPI expansion that creates placeholders for gradient text. Unlike other similar plugins, BetterGradients supports chat modifiers like &amp;l and &amp;n.
 
 # Placeholders
 - `%BetterGradients_<hex1>_<hex2>_<message>%`
