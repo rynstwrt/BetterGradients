@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="BetterGradients:jar">
+    <output-path>$USER_HOME$/Desktop/Plugin Server/plugins</output-path>
+    <root id="archive" name="BetterGradients.jar">
+      <element id="module-output" name="BetterGradients" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

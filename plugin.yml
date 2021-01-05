@@ -1,0 +1,6 @@
+name: BetterGradients
+main: art.ryanstew.bettergradients.BetterGradients
+version: 0.0.1
+authors: [CarbonAPI, Ryan Stewart]
+softdepend: [PlaceholderAPI]
+description: Create gradients with modifiers through PlaceholderAPI!
