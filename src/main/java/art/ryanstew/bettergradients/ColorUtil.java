@@ -1,7 +1,5 @@
 package art.ryanstew.bettergradients;
 
-import net.md_5.bungee.api.ChatColor;
-
 import java.awt.Color;
 
 public class ColorUtil

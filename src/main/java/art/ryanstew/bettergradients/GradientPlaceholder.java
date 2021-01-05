@@ -21,19 +21,19 @@ public class GradientPlaceholder extends PlaceholderExpansion
 
     public String getIdentifier()
     {
-        return "bettergradients";
+        return "BetterGradients";
     }
 
     @Override
     public String getAuthor()
     {
-        return "CarbonAPI / Ryan Stewart";
+        return "CarbonAPI";
     }
 
     @Override
     public String getVersion()
     {
-        return "0.0.1";
+        return "1.0.0";
     }
 
     @Override
@@ -56,97 +56,6 @@ public class GradientPlaceholder extends PlaceholderExpansion
 
             return getModifiedGradient(identifier.replaceAll(mods + "_", ""), mods);
         }
-
-//        // %bettergradients_bold_<hex1>_<hex2>_<message>%
-//        if (identifier.matches("bold_" + hexCodeRegex + "_" + hexCodeRegex + "_.+"))
-//        {
-//            return getModifiedGradient(identifier.replaceAll("bold_", ""), "&l");
-//        }
-//
-//        // %bettergradients_italic_<hex1>_<hex2>_<message>%
-//        if (identifier.matches("italic_" + hexCodeRegex + "_" + hexCodeRegex + "_.+"))
-//        {
-//            return getModifiedGradient(identifier.replaceAll("italic_", ""), "&o");
-//        }
-//
-//        // %bettergradients_underlined_<hex1>_<hex2>_<message>%
-//        if (identifier.matches("underlined_" + hexCodeRegex + "_" + hexCodeRegex + "_.+"))
-//        {
-//            return getModifiedGradient(identifier.replaceAll("underlined_", ""), "&n");
-//        }
-//
-//        // %bettergradients_strikethrough_<hex1>_<hex2>_<message>%
-//        if (identifier.matches("strikethrough_" + hexCodeRegex + "_" + hexCodeRegex + "_.+"))
-//        {
-//            return getModifiedGradient(identifier.replaceAll("strikethrough_", ""), "&m");
-//        }
-//
-//        // %bettergradients_bold_italic_<hex1>_<hex2>_<message>%
-//        if (identifier.matches("bold_italic_" + hexCodeRegex + "_" + hexCodeRegex + "_.+"))
-//        {
-//            return getModifiedGradient(identifier.replaceAll("bold_italic_", ""), "&l&o");
-//        }
-//
-//        // %bettergradients_bold_italic_<hex1>_<hex2>_<message>%
-//        if (identifier.matches("bold_underlined_" + hexCodeRegex + "_" + hexCodeRegex + "_.+"))
-//        {
-//            return getModifiedGradient(identifier.replaceAll("bold_underlined_", ""), "&l&n");
-//        }
-//
-//        // %bettergradients_bold_strikethrough_<hex1>_<hex2>_<message>%
-//        if (identifier.matches("bold_strikethrough_" + hexCodeRegex + "_" + hexCodeRegex + "_.+"))
-//        {
-//            return getModifiedGradient(identifier.replaceAll("bold_strikethrough_", ""), "&l&m");
-//        }
-//
-//        // %bettergradients_italic_underlined_<hex1>_<hex2>_<message>%
-//        if (identifier.matches("italic_underlined_" + hexCodeRegex + "_" + hexCodeRegex + "_.+"))
-//        {
-//            return getModifiedGradient(identifier.replaceAll("italic_underlined_", ""), "&o&n");
-//        }
-//
-//        // %bettergradients_italic_strikethrough_<hex1>_<hex2>_<message>%
-//        if (identifier.matches("italic_strikethrough_" + hexCodeRegex + "_" + hexCodeRegex + "_.+"))
-//        {
-//            return getModifiedGradient(identifier.replaceAll("italic_strikethrough_", ""), "&o&m");
-//        }
-//
-//        // underlined strikethrough
-//        if (identifier.matches("underlined_strikethrough_" + hexCodeRegex + "_" + hexCodeRegex + "_.+"))
-//        {
-//            return getModifiedGradient(identifier.replaceAll("underlined_strikethrough_", ""), "&n&m");
-//        }
-//
-//        // bold italic underlined
-//        if (identifier.matches("bold_italic_underlined_" + hexCodeRegex + "_" + hexCodeRegex + "_.+"))
-//        {
-//            return getModifiedGradient(identifier.replaceAll("bold_italic_underlined_", ""), "&l&o&n");
-//        }
-//
-//        // bold italic strikethrough
-//        if (identifier.matches("bold_italic_strikethrough_" + hexCodeRegex + "_" + hexCodeRegex + "_.+"))
-//        {
-//            return getModifiedGradient(identifier.replaceAll("bold_italic_strikethrough_", ""), "&l&o&m");
-//        }
-//
-//        // bold underlined strikethrough
-//        if (identifier.matches("bold_underlined_strikethrough_" + hexCodeRegex + "_" + hexCodeRegex + "_.+"))
-//        {
-//            return getModifiedGradient(identifier.replaceAll("bold_underlined_strikethrough_", ""), "&l&n&m");
-//        }
-//
-//        // italic underlined strikethrough
-//        if (identifier.matches("italic_underlined_strikethrough_" + hexCodeRegex + "_" + hexCodeRegex + "_.+"))
-//        {
-//            return getModifiedGradient(identifier.replaceAll("italic_underlined_strikethrough_", ""), "&o&n&m");
-//        }
-//
-//        // bold italic underlined strikethrough
-//        if (identifier.matches("bold_italic_underlined_strikethrough_" + hexCodeRegex + "_" + hexCodeRegex + "_.+"))
-//        {
-//            return getModifiedGradient(identifier.replaceAll("bold_italic_underlined_strikethrough_", ""), "&l&o&n&m");
-//        }
-
         return null;
     }
 
